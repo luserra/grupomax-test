@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba form</title>
+</head>
+<body>
+    <div id="form" class="form">
+        <h4 class="footer-title">Formulario</h4>
+        <form>
+            <div class="inputs">
+                <label for="nombre"></label>
+                <input type="text" id="nombre" placeholder="Nombre" tabindex="1" required/>
+
+                <label for="provincia"></label>
+                <input type="text" id="provincia" placeholder="Provincia" tabindex="4" required/>
+            </div>
+
+            <div class="inputs">
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="E-mail" tabindex="2" required/>
+        
+                <label for="horario"></label>
+                <input type="text" id="horario" placeholder="Horario de contacto" tabindex="5" required/>
+                
+            </div>
+
+            <div class="inputs">
+                <label for="tel"></label>
+                <input type="number" id="tel" placeholder="Teléfono" tabindex="3" required/>  
+                
+
+                <label for="consulta"></label>
+                <input type="text" id="consulta" placeholder="Consulta" tabindex="6" required/>
+            </div>
+
+            <div class="div-submit">
+                <input class="btn-submit" type="submit" value="Enviar" id="btn-submit" tabindex="7"/>
+            </div>
+        </form>
+        <div id="sent">
+            <div id="text-sent"></div>
+        </div>
+    </div>
+
+    <script src="prueba.js"></script>
+
+    
+</body>
+</html>
